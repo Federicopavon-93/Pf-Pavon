@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Quicksand';
+}
+
+header {
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logofp {
+    height: 150px;
+    width: auto;
+
+}
+
+.navbar ul {
+    list-style-type: none;
+    
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 3px;
+    color: black;
+    margin-right: 40px;
+}
+
+.navbar ul li a:hover {
+    background-color: whitesmoke;
+    color: darkslategray;
+    transition: 0.5s;
+}
+
+.img1 {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+p {
+    text-align: center;
+    font-size: larger;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.img2 {
+    width: 100%;
+    height: auto;
+}
+
+h2 {
+    padding-left: 80px;
+}
+
+h3 {
+    padding-left: 80px;
+    padding-bottom: 40px;
+}
+
+.grid-container {
+    display: grid;
+
+    grid-template-rows: repeat(3, 1fr);
+
+    grid-template-columns: repeat(3, 1fr);
+
+    padding-left: 80px;
+    padding-right: 80px;
+
+}
+
+.grid-item-1 {
+    text-align: center;
+    font-size: larger;
+}
+
+.grid-item-2 {
+    text-align: center;
+    font-size: larger;
+}
+
+footer {
+    display: flex;  
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+}
+
+
+.navbarfooter ul li a {
+    color: whitesmoke;
+    margin-right: 40px;
+}
+
+.sobremi {
+width: 100%
+}
+
+.Hola {
+    text-align: center;
+}
